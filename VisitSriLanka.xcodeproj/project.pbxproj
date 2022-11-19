@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA3DCCE929294AEE0075D028 /* VisitSriLankaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3DCCE829294AEE0075D028 /* VisitSriLankaApp.swift */; };
+		AA3DCCEB29294AEE0075D028 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3DCCEA29294AEE0075D028 /* ContentView.swift */; };
+		AA3DCCED29294AEF0075D028 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA3DCCEC29294AEF0075D028 /* Assets.xcassets */; };
+		AA3DCCF029294AEF0075D028 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA3DCCEF29294AEF0075D028 /* Preview Assets.xcassets */; };
+		AA3DCCFA29294AEF0075D028 /* VisitSriLankaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3DCCF929294AEF0075D028 /* VisitSriLankaTests.swift */; };
+		AA3DCD0429294AEF0075D028 /* VisitSriLankaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3DCD0329294AEF0075D028 /* VisitSriLankaUITests.swift */; };
+		AA3DCD0629294AEF0075D028 /* VisitSriLankaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3DCD0529294AEF0075D028 /* VisitSriLankaUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA3DCCF629294AEF0075D028 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA3DCCDD29294AEE0075D028 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA3DCCE429294AEE0075D028;
+			remoteInfo = VisitSriLanka;
+		};
+		AA3DCD0029294AEF0075D028 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA3DCCDD29294AEE0075D028 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA3DCCE429294AEE0075D028;
+			remoteInfo = VisitSriLanka;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA3DCCE529294AEE0075D028 /* VisitSriLanka.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VisitSriLanka.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA3DCCE829294AEE0075D028 /* VisitSriLankaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitSriLankaApp.swift; sourceTree = "<group>"; };
+		AA3DCCEA29294AEE0075D028 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AA3DCCEC29294AEF0075D028 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA3DCCEF29294AEF0075D028 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AA3DCCF529294AEF0075D028 /* VisitSriLankaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VisitSriLankaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA3DCCF929294AEF0075D028 /* VisitSriLankaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitSriLankaTests.swift; sourceTree = "<group>"; };
+		AA3DCCFF29294AEF0075D028 /* VisitSriLankaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VisitSriLankaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA3DCD0329294AEF0075D028 /* VisitSriLankaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitSriLankaUITests.swift; sourceTree = "<group>"; };
+		AA3DCD0529294AEF0075D028 /* VisitSriLankaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitSriLankaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA3DCCE229294AEE0075D028 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA3DCCF229294AEF0075D028 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA3DCCFC29294AEF0075D028 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA3DCCDC29294AEE0075D028 = {
+			isa = PBXGroup;
+			children = (
+				AA3DCCE729294AEE0075D028 /* VisitSriLanka */,
+				AA3DCCF829294AEF0075D028 /* VisitSriLankaTests */,
+				AA3DCD0229294AEF0075D028 /* VisitSriLankaUITests */,
+				AA3DCCE629294AEE0075D028 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA3DCCE629294AEE0075D028 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA3DCCE529294AEE0075D028 /* VisitSriLanka.app */,
+				AA3DCCF529294AEF0075D028 /* VisitSriLankaTests.xctest */,
+				AA3DCCFF29294AEF0075D028 /* VisitSriLankaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA3DCCE729294AEE0075D028 /* VisitSriLanka */ = {
+			isa = PBXGroup;
+			children = (
+				AA3DCCE829294AEE0075D028 /* VisitSriLankaApp.swift */,
+				AA3DCCEA29294AEE0075D028 /* ContentView.swift */,
+				AA3DCCEC29294AEF0075D028 /* Assets.xcassets */,
+				AA3DCCEE29294AEF0075D028 /* Preview Content */,
+			);
+			path = VisitSriLanka;
+			sourceTree = "<group>";
+		};
+		AA3DCCEE29294AEF0075D028 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AA3DCCEF29294AEF0075D028 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AA3DCCF829294AEF0075D028 /* VisitSriLankaTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA3DCCF929294AEF0075D028 /* VisitSriLankaTests.swift */,
+			);
+			path = VisitSriLankaTests;
+			sourceTree = "<group>";
+		};
+		AA3DCD0229294AEF0075D028 /* VisitSriLankaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AA3DCD0329294AEF0075D028 /* VisitSriLankaUITests.swift */,
+				AA3DCD0529294AEF0075D028 /* VisitSriLankaUITestsLaunchTests.swift */,
+			);
+			path = VisitSriLankaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA3DCCE429294AEE0075D028 /* VisitSriLanka */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA3DCD0929294AEF0075D028 /* Build configuration list for PBXNativeTarget "VisitSriLanka" */;
+			buildPhases = (
+				AA3DCCE129294AEE0075D028 /* Sources */,
+				AA3DCCE229294AEE0075D028 /* Frameworks */,
+				AA3DCCE329294AEE0075D028 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VisitSriLanka;
+			productName = VisitSriLanka;
+			productReference = AA3DCCE529294AEE0075D028 /* VisitSriLanka.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA3DCCF429294AEF0075D028 /* VisitSriLankaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA3DCD0C29294AEF0075D028 /* Build configuration list for PBXNativeTarget "VisitSriLankaTests" */;
+			buildPhases = (
+				AA3DCCF129294AEF0075D028 /* Sources */,
+				AA3DCCF229294AEF0075D028 /* Frameworks */,
+				AA3DCCF329294AEF0075D028 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA3DCCF729294AEF0075D028 /* PBXTargetDependency */,
+			);
+			name = VisitSriLankaTests;
+			productName = VisitSriLankaTests;
+			productReference = AA3DCCF529294AEF0075D028 /* VisitSriLankaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AA3DCCFE29294AEF0075D028 /* VisitSriLankaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA3DCD0F29294AEF0075D028 /* Build configuration list for PBXNativeTarget "VisitSriLankaUITests" */;
+			buildPhases = (
+				AA3DCCFB29294AEF0075D028 /* Sources */,
+				AA3DCCFC29294AEF0075D028 /* Frameworks */,
+				AA3DCCFD29294AEF0075D028 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA3DCD0129294AEF0075D028 /* PBXTargetDependency */,
+			);
+			name = VisitSriLankaUITests;
+			productName = VisitSriLankaUITests;
+			productReference = AA3DCCFF29294AEF0075D028 /* VisitSriLankaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA3DCCDD29294AEE0075D028 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					AA3DCCE429294AEE0075D028 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					AA3DCCF429294AEF0075D028 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = AA3DCCE429294AEE0075D028;
+					};
+					AA3DCCFE29294AEF0075D028 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = AA3DCCE429294AEE0075D028;
+					};
+				};
+			};
+			buildConfigurationList = AA3DCCE029294AEE0075D028 /* Build configuration list for PBXProject "VisitSriLanka" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA3DCCDC29294AEE0075D028;
+			productRefGroup = AA3DCCE629294AEE0075D028 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA3DCCE429294AEE0075D028 /* VisitSriLanka */,
+				AA3DCCF429294AEF0075D028 /* VisitSriLankaTests */,
+				AA3DCCFE29294AEF0075D028 /* VisitSriLankaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA3DCCE329294AEE0075D028 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA3DCCF029294AEF0075D028 /* Preview Assets.xcassets in Resources */,
+				AA3DCCED29294AEF0075D028 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA3DCCF329294AEF0075D028 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA3DCCFD29294AEF0075D028 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA3DCCE129294AEE0075D028 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA3DCCEB29294AEE0075D028 /* ContentView.swift in Sources */,
+				AA3DCCE929294AEE0075D028 /* VisitSriLankaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA3DCCF129294AEF0075D028 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA3DCCFA29294AEF0075D028 /* VisitSriLankaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA3DCCFB29294AEF0075D028 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA3DCD0429294AEF0075D028 /* VisitSriLankaUITests.swift in Sources */,
+				AA3DCD0629294AEF0075D028 /* VisitSriLankaUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA3DCCF729294AEF0075D028 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA3DCCE429294AEE0075D028 /* VisitSriLanka */;
+			targetProxy = AA3DCCF629294AEF0075D028 /* PBXContainerItemProxy */;
+		};
+		AA3DCD0129294AEF0075D028 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA3DCCE429294AEE0075D028 /* VisitSriLanka */;
+			targetProxy = AA3DCD0029294AEF0075D028 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AA3DCD0729294AEF0075D028 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA3DCD0829294AEF0075D028 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA3DCD0A29294AEF0075D028 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VisitSriLanka/Preview Content\"";
+				DEVELOPMENT_TEAM = R59RWV57QQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Kaytrun.VisitSriLanka;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA3DCD0B29294AEF0075D028 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VisitSriLanka/Preview Content\"";
+				DEVELOPMENT_TEAM = R59RWV57QQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Kaytrun.VisitSriLanka;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AA3DCD0D29294AEF0075D028 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R59RWV57QQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Kaytrun.VisitSriLankaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VisitSriLanka.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VisitSriLanka";
+			};
+			name = Debug;
+		};
+		AA3DCD0E29294AEF0075D028 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R59RWV57QQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Kaytrun.VisitSriLankaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VisitSriLanka.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VisitSriLanka";
+			};
+			name = Release;
+		};
+		AA3DCD1029294AEF0075D028 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R59RWV57QQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Kaytrun.VisitSriLankaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VisitSriLanka;
+			};
+			name = Debug;
+		};
+		AA3DCD1129294AEF0075D028 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R59RWV57QQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Kaytrun.VisitSriLankaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VisitSriLanka;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA3DCCE029294AEE0075D028 /* Build configuration list for PBXProject "VisitSriLanka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA3DCD0729294AEF0075D028 /* Debug */,
+				AA3DCD0829294AEF0075D028 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA3DCD0929294AEF0075D028 /* Build configuration list for PBXNativeTarget "VisitSriLanka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA3DCD0A29294AEF0075D028 /* Debug */,
+				AA3DCD0B29294AEF0075D028 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA3DCD0C29294AEF0075D028 /* Build configuration list for PBXNativeTarget "VisitSriLankaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA3DCD0D29294AEF0075D028 /* Debug */,
+				AA3DCD0E29294AEF0075D028 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA3DCD0F29294AEF0075D028 /* Build configuration list for PBXNativeTarget "VisitSriLankaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA3DCD1029294AEF0075D028 /* Debug */,
+				AA3DCD1129294AEF0075D028 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA3DCCDD29294AEE0075D028 /* Project object */;
+}
