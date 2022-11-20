@@ -16,6 +16,12 @@
 		AA3DCD0629294AEF0075D028 /* VisitSriLankaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3DCD0529294AEF0075D028 /* VisitSriLankaUITestsLaunchTests.swift */; };
 		AA728BD82929EA8200CEDF6B /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA728BD72929EA8200CEDF6B /* CircleImage.swift */; };
 		AA728BDA2929EF9800CEDF6B /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA728BD92929EF9800CEDF6B /* MapView.swift */; };
+		AA728BDC292A095700CEDF6B /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = AA728BDB292A095700CEDF6B /* landmarkData.json */; };
+		AA728BDE292A099F00CEDF6B /* TouristicPlaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA728BDD292A099F00CEDF6B /* TouristicPlaces.swift */; };
+		AA728BE0292A0EA900CEDF6B /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA728BDF292A0EA900CEDF6B /* ModelData.swift */; };
+		AA728BE5292A13FF00CEDF6B /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA728BE4292A13FF00CEDF6B /* LandmarkRow.swift */; };
+		AA728BE7292A194200CEDF6B /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA728BE6292A194200CEDF6B /* LandmarkList.swift */; };
+		AA728BE9292A373500CEDF6B /* LandmarkDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA728BE8292A373500CEDF6B /* LandmarkDetails.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +54,12 @@
 		AA3DCD0529294AEF0075D028 /* VisitSriLankaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitSriLankaUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		AA728BD72929EA8200CEDF6B /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		AA728BD92929EF9800CEDF6B /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		AA728BDB292A095700CEDF6B /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
+		AA728BDD292A099F00CEDF6B /* TouristicPlaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouristicPlaces.swift; sourceTree = "<group>"; };
+		AA728BDF292A0EA900CEDF6B /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		AA728BE4292A13FF00CEDF6B /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
+		AA728BE6292A194200CEDF6B /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
+		AA728BE8292A373500CEDF6B /* LandmarkDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetails.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +111,9 @@
 			isa = PBXGroup;
 			children = (
 				AA3DCCE829294AEE0075D028 /* VisitSriLankaApp.swift */,
-				AA3DCCEA29294AEE0075D028 /* ContentView.swift */,
-				AA728BD72929EA8200CEDF6B /* CircleImage.swift */,
-				AA728BD92929EF9800CEDF6B /* MapView.swift */,
+				AA728BE1292A0F8600CEDF6B /* views */,
+				AA728BE3292A0FEB00CEDF6B /* resources */,
+				AA728BE2292A0FA600CEDF6B /* model */,
 				AA3DCCEC29294AEF0075D028 /* Assets.xcassets */,
 				AA3DCCEE29294AEF0075D028 /* Preview Content */,
 			);
@@ -131,6 +143,36 @@
 				AA3DCD0529294AEF0075D028 /* VisitSriLankaUITestsLaunchTests.swift */,
 			);
 			path = VisitSriLankaUITests;
+			sourceTree = "<group>";
+		};
+		AA728BE1292A0F8600CEDF6B /* views */ = {
+			isa = PBXGroup;
+			children = (
+				AA3DCCEA29294AEE0075D028 /* ContentView.swift */,
+				AA728BD92929EF9800CEDF6B /* MapView.swift */,
+				AA728BD72929EA8200CEDF6B /* CircleImage.swift */,
+				AA728BE4292A13FF00CEDF6B /* LandmarkRow.swift */,
+				AA728BE6292A194200CEDF6B /* LandmarkList.swift */,
+				AA728BE8292A373500CEDF6B /* LandmarkDetails.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		AA728BE2292A0FA600CEDF6B /* model */ = {
+			isa = PBXGroup;
+			children = (
+				AA728BDF292A0EA900CEDF6B /* ModelData.swift */,
+				AA728BDD292A099F00CEDF6B /* TouristicPlaces.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		AA728BE3292A0FEB00CEDF6B /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				AA728BDB292A095700CEDF6B /* landmarkData.json */,
+			);
+			path = resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,6 +281,7 @@
 			files = (
 				AA3DCCF029294AEF0075D028 /* Preview Assets.xcassets in Resources */,
 				AA3DCCED29294AEF0075D028 /* Assets.xcassets in Resources */,
+				AA728BDC292A095700CEDF6B /* landmarkData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,8 +308,13 @@
 			files = (
 				AA3DCCEB29294AEE0075D028 /* ContentView.swift in Sources */,
 				AA728BDA2929EF9800CEDF6B /* MapView.swift in Sources */,
+				AA728BDE292A099F00CEDF6B /* TouristicPlaces.swift in Sources */,
+				AA728BE7292A194200CEDF6B /* LandmarkList.swift in Sources */,
 				AA3DCCE929294AEE0075D028 /* VisitSriLankaApp.swift in Sources */,
 				AA728BD82929EA8200CEDF6B /* CircleImage.swift in Sources */,
+				AA728BE5292A13FF00CEDF6B /* LandmarkRow.swift in Sources */,
+				AA728BE0292A0EA900CEDF6B /* ModelData.swift in Sources */,
+				AA728BE9292A373500CEDF6B /* LandmarkDetails.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
