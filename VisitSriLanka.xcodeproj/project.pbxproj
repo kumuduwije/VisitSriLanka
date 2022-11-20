@@ -14,6 +14,8 @@
 		AA3DCCFA29294AEF0075D028 /* VisitSriLankaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3DCCF929294AEF0075D028 /* VisitSriLankaTests.swift */; };
 		AA3DCD0429294AEF0075D028 /* VisitSriLankaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3DCD0329294AEF0075D028 /* VisitSriLankaUITests.swift */; };
 		AA3DCD0629294AEF0075D028 /* VisitSriLankaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3DCD0529294AEF0075D028 /* VisitSriLankaUITestsLaunchTests.swift */; };
+		AA728BD82929EA8200CEDF6B /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA728BD72929EA8200CEDF6B /* CircleImage.swift */; };
+		AA728BDA2929EF9800CEDF6B /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA728BD92929EF9800CEDF6B /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		AA3DCCFF29294AEF0075D028 /* VisitSriLankaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VisitSriLankaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA3DCD0329294AEF0075D028 /* VisitSriLankaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitSriLankaUITests.swift; sourceTree = "<group>"; };
 		AA3DCD0529294AEF0075D028 /* VisitSriLankaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitSriLankaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AA728BD72929EA8200CEDF6B /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		AA728BD92929EF9800CEDF6B /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 			children = (
 				AA3DCCE829294AEE0075D028 /* VisitSriLankaApp.swift */,
 				AA3DCCEA29294AEE0075D028 /* ContentView.swift */,
+				AA728BD72929EA8200CEDF6B /* CircleImage.swift */,
+				AA728BD92929EF9800CEDF6B /* MapView.swift */,
 				AA3DCCEC29294AEF0075D028 /* Assets.xcassets */,
 				AA3DCCEE29294AEF0075D028 /* Preview Content */,
 			);
@@ -258,7 +264,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA3DCCEB29294AEE0075D028 /* ContentView.swift in Sources */,
+				AA728BDA2929EF9800CEDF6B /* MapView.swift in Sources */,
 				AA3DCCE929294AEE0075D028 /* VisitSriLankaApp.swift in Sources */,
+				AA728BD82929EA8200CEDF6B /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
